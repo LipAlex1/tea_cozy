@@ -114,7 +114,7 @@ main {
   position: relative;
   top: 50px;
   width: 1200px;
-  height: 795px;
+  height: 750px;
   background-image: url("images/img-locations-background.jpg");
   display: flex;
   flex-direction: column;
@@ -162,8 +162,26 @@ h3, span {
   flex-direction: column;
 }
 
+.contact h3 {
+  margin-top: 15px;
+  margin-bottom: 20px
+}
+.contact h5 {
+  margin: 10px 0;
+}
+
 #contact-link {
   color: #fff5ee;
   text-decoration: none;
-  /* sry, just couldn't help it ;-) */
+  /* sry, just couldn't resist ;-) */
+}
+
+footer {
+  position: relative;
+  top: 50px;
+  text-align: left;
+}
+
+footer h5 {
+  margin-left: 20px;
 }
