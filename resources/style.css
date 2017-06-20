@@ -103,3 +103,35 @@ main {
 .picture-box h4 {
   margin: 10px;
 }
+
+/* location styles */
+
+.location {
+  position: relative;
+  top: 50px;
+  width: 1200px;
+  height: 795px;
+  background-image: url("images/img-locations-background.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.location-headline {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.location-blox {
+  /* location-blox styling goes in here */
+}
+
+.contact {
+  width: 1200px;
+  height: 200px;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+}
