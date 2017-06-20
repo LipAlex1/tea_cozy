@@ -124,8 +124,30 @@ main {
   align-items: flex-end;
 }
 
+.location-headline h2 {
+  margin: 0;
+}
+
 .location-blox {
-  /* location-blox styling goes in here */
+  height: 445px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.blox {
+  width: 300px;
+  margin: 0 20px;
+  background-color: #000;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+h3, span {
+  margin: 20px 0;
 }
 
 .contact {
