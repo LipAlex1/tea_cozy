@@ -135,3 +135,9 @@ main {
   display: flex;
   flex-direction: column;
 }
+
+#contact-link {
+  color: #fff5ee;
+  text-decoration: none;
+  /* sry, just couldn't help it ;-) */
+}
